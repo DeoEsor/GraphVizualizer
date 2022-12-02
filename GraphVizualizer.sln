@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GraphDesktop", "GraphDesktop\GraphDesktop.csproj", "{E7B89119-6B77-41CD-822C-C419473D6E81}"
+	ProjectSection(ProjectDependencies) = postProject
+		{96F6E9F3-60E8-4F98-BD27-47C29A807C82} = {96F6E9F3-60E8-4F98-BD27-47C29A807C82}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7B89119-6B77-41CD-822C-C419473D6E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7B89119-6B77-41CD-822C-C419473D6E81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7B89119-6B77-41CD-822C-C419473D6E81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7B89119-6B77-41CD-822C-C419473D6E81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3000AF9A-938F-427A-AEAA-73594B233678}
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal

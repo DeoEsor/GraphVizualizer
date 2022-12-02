@@ -1,0 +1,88 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "GraphLib/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/GraphLib.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GraphLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GraphLib/1.0.0": {
+      "type": "project",
+      "path": "../GraphLib/GraphLib.csproj",
+      "msbuildProject": "../GraphLib/GraphLib.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "GraphLib >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/valeriy/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/valeriy/Projects/GraphVizualizer/VartumyanGraphTheory/VartumyanGraphTheory.csproj",
+      "projectName": "VartumyanGraphTheory",
+      "projectPath": "/home/valeriy/Projects/GraphVizualizer/VartumyanGraphTheory/VartumyanGraphTheory.csproj",
+      "packagesPath": "/home/valeriy/.nuget/packages/",
+      "outputPath": "/home/valeriy/Projects/GraphVizualizer/VartumyanGraphTheory/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/valeriy/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/valeriy/Projects/GraphVizualizer/GraphLib/GraphLib.csproj": {
+              "projectPath": "/home/valeriy/Projects/GraphVizualizer/GraphLib/GraphLib.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.403/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
